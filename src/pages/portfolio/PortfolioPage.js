@@ -1,6 +1,5 @@
 // Node modules
 import React from 'react';
-import Fade from 'react-reveal/Fade';
 
 // Actions
 import { getProjects } from '../../parts/api/Api';

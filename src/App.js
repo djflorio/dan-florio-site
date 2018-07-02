@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Route path={['/about', '/portfolio']} component={SideNav} />
+        <Route path="*" component={SideNav} />
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />
