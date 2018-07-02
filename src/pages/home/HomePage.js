@@ -1,6 +1,6 @@
 // Node modules
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
 // Assets
@@ -29,7 +29,7 @@ class HomePage extends React.Component {
         <Fade top right>
           <div className="home__section home__section--2">
             <h2 className="home__slogan">
-              developer music maker tinker thinker
+              developer musicmaker tinker thinker
             </h2>
             <FontAwesomeIcon
               icon={faCog}

@@ -38,3 +38,15 @@
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 600px) {
+  .portfolio {
+    position: relative;
+    margin-top: 50px;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    padding: 30px;
+  }
+}

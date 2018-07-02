@@ -96,3 +96,19 @@
     transform: rotate(-329deg);
   }
 }
+
+@media (max-width: 600px) {
+  .about {
+    position: relative;
+    margin-top: 50px;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    padding: 30px;
+  }
+
+  .about__p {
+    text-align: left;
+  }
+}

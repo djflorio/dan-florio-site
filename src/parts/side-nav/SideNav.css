@@ -38,3 +38,9 @@
 .side-nav__link--active .side-nav__link-overlay {
   width: 100%;
 }
+
+@media (max-width: 600px) {
+  .side-nav {
+    display: none;
+  }
+}

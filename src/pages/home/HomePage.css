@@ -142,7 +142,21 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
+  .home__title {
+    font-size: 60px;
+  }
+
+  .home__slogan {
+    font-size: 40px;
+  }
+
+  .home__nav-link {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
   .home__title {
     font-size: 30px;
   }

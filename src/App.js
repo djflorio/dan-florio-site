@@ -9,6 +9,7 @@ import './App.css';
 import HomePage from './pages/home/HomePage';
 import PortfolioPage from './pages/portfolio/PortfolioPage';
 import SideNav from './parts/side-nav/SideNav';
+import MobileNav from './parts/mobile-nav/MobileNav';
 import AboutPage from './pages/about/AboutPage';
 import ContactPage from './pages/contact/ContactPage';
 
@@ -18,6 +19,7 @@ class App extends Component {
     return (
       <div className="App">
         <Route path="*" component={SideNav} />
+        <Route path="*" component={MobileNav} />
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />

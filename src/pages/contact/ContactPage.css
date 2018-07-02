@@ -33,3 +33,13 @@
   margin: auto;
   font-size: 150px;
 }
+
+@media (max-width: 600px) {
+  .contact {
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+  }
+}
