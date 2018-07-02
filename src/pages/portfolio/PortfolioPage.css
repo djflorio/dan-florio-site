@@ -1,6 +1,5 @@
 .portfolio {
   position: fixed;
-  /*background-color: rgb(77, 228, 127);*/
   background-color: #efefef;
   top: 0;
   right: 0;
@@ -8,6 +7,7 @@
   bottom: 0;
   overflow-y: scroll;
   padding: 50px;
+  color: #111;
 }
 
 .portfolio__header {
