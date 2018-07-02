@@ -1,17 +1,94 @@
 .about {
   position: fixed;
-  /*background-color: rgb(77, 228, 127);*/
   background-color: #efefef;
   top: 0;
   right: 0;
   left: 220px;
   bottom: 0;
   overflow-y: scroll;
-  padding: 20px;
+  padding: 60px;
   font-family: 'Lato', sans-serif;
 }
 
 .about__p {
+  margin: 0 0 20px 0;
   text-align: justify;
-  font-size: 30px;
+  font-size: 27px;
+  color: #111;
+}
+
+.about__a {
+  color: rgb(43, 133, 73);
+  transition: 0.3s;
+}
+
+.about__a:hover {
+  color: rgb(6, 97, 36);
+}
+
+.about__gears {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.1;
+}
+
+.about__gear {
+  position: absolute;
+  font-size: 200px;
+}
+
+.about__gear--1 {
+  top: 10px;
+  left: 10px;
+  animation: spinright 3s linear infinite;
+}
+
+.about__gear--2 {
+  top: 160px;
+  left: 95px;
+  transform: rotate(30deg);
+  animation: spinleft 3s linear infinite;
+}
+
+.about__gear--3 {
+  top: 333px;
+  left: 95px;
+  animation: spinright 3s linear infinite;
+}
+
+.about__gear--4 {
+  top: 90px;
+  left: 250px;
+  animation: spinright 3s linear infinite;
+}
+
+.about__face {
+  position: absolute;
+  border-radius: 50%;
+  width: 150px;
+  top: 115px;
+  left: 275px;
+  animation: spinright 3s linear infinite;
+  opacity: 0.2;
+}
+
+@keyframes spinright {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes spinleft {
+  0% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(-329deg);
+  }
 }

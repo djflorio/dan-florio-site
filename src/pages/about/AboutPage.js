@@ -1,32 +1,63 @@
 // Node modules
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // Assets
 import './AboutPage.css';
+import { faCog } from '@fortawesome/free-solid-svg-icons'
+import face from './img/face.jpg';
 
 
 class AboutPage extends React.Component {
   render() {
     return (
+      
       <div className="about">
-        <p className="about__p">
-          TL;DR: I'm a millenial who makes computers do things via code,
-          with a strong focus on web development. My favorite things: Javascript,
-          React, Python, Django, eating pasta.
-        </p>
-        <p className="about__p">
-          The year was 2002. After saving up 1200 dollars through birthday
-          gifts and lawn mowing, I bought myself my first laptop at the age of 12
-          (mostly with the intention of playing video games). Fascinated with how
-          things work, I saved up another 200 dollars to purchase 2 books on C++
-          programming and the Visual C++ Compiler Software. While most of the
-          information I received from said books slid directly over my tiny,
-          teenage head, it solidified my desire to learn more.
-        </p>
-        <p className="about__p">
-          Fast forward several years, and 
-        </p>
+        <div className="about__gears">
+          <FontAwesomeIcon
+            icon={faCog}
+            className="about__gear about__gear--1"
+          />
+          <FontAwesomeIcon
+            icon={faCog}
+            className="about__gear about__gear--2"
+          />
+          <FontAwesomeIcon
+            icon={faCog}
+            className="about__gear about__gear--3"
+          />
+          <FontAwesomeIcon
+            icon={faCog}
+            className="about__gear about__gear--4"
+          />
+        </div>
+        <img className="about__face" src={face} alt="face" />
+        <Fade cascade right>
+          <div>
+            <p className="about__p">
+              I'm a millenial who knows how to talk to computers,
+              especially when it comes to the web.
+            </p>
+            <p className="about__p">
+              My favorite digital things: Javascript,
+              React, Python, Django, Raspberry PI, Arduino, putting lightweight Linux distros
+              on crappy computers, scary video games.
+            </p>
+            <p className="about__p">
+              My favorite non-digital things:&nbsp;
+              <a
+                className="about__a"
+                href="http://www.danfloriomusic.com"
+                target="_blank"
+                rel="noopener noreferrer">writing music</a>,
+              running, biking, cooking food, eating food, accidentally writing "food"
+              instead of "good" in text messages.
+            </p>
+          </div>
+        </Fade>
       </div>
+      
     );
   }
 }

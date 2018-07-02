@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 // Assets
 import './HomePage.css';
-import { faCog } from '@fortawesome/free-solid-svg-icons'
+import { faCog } from '@fortawesome/free-solid-svg-icons';
 import avatar from './img/avatar.png';
 import Fade from 'react-reveal/Fade';
 
