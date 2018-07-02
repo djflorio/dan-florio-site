@@ -141,3 +141,44 @@
     font-size: 30px;
   }
 }
+
+@media (max-width: 500px) {
+  .home__title {
+    font-size: 30px;
+  }
+
+  .home__slogan {
+    font-size: 20px;
+  }
+
+  .home__nav-link {
+    font-size: 20px;
+  }
+
+  .home__cog {
+    font-size: 100px;
+  }
+  
+  .home__cog--1 {
+    right: -50px;
+    bottom: -50px;
+    color: #111;
+  }
+  
+  .home__cog--2 {
+    left: -50px;
+    bottom: -50px;
+    color: rgb(77, 228, 127);
+  }
+  
+  .home__cog--3 {
+    right: -50px;
+    top: -50px;
+    color: rgb(77, 228, 127);
+  }
+  .home__cog--4 {
+    top: -50px;
+    left: -50px;
+    color: #111;
+  }
+}
