@@ -43,3 +43,9 @@
     padding: 30px;
   }
 }
+
+@media (min-width: 1200px) {
+  .contact {
+    text-align: center;
+  }
+}
