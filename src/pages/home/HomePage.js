@@ -41,10 +41,26 @@ class HomePage extends React.Component {
           <div className="home__section home__section--3">
             <Fade left cascade>
               <nav className="home__nav">
-                <Link to="/about" className="home__nav-link">About</Link>
-                <Link to="/blog" className="home__nav-link">Blog</Link>
-                <Link to="/portfolio" className="home__nav-link">Portfolio</Link>
-                <Link to="/resume" className="home__nav-link">Resume</Link>
+                <Link to="/about" className="home__nav-link">
+                  <span className="home__nav-link-overlay">
+                    About
+                  </span>
+                  About
+                </Link>
+                <Link to="/portfolio" className="home__nav-link">
+                  <span className="home__nav-link-overlay">
+                    Portfolio
+                  </span>
+                  Portfolio
+                </Link>
+                <a
+                  href="http://www.danfloriomusic.com"
+                  className="home__nav-link">
+                  <span className="home__nav-link-overlay">
+                    Music
+                  </span>
+                  Music
+                </a>
               </nav>
             </Fade>
             <FontAwesomeIcon

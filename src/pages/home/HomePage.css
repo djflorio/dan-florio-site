@@ -13,11 +13,28 @@
 }
 
 .home__nav-link {
+  position: relative;
   display: block;
   color: rgb(77, 228, 127);
   font-size: 50px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.home__nav-link-overlay {
+  color: #111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  bottom: 0;
+  background-color: rgb(77, 228, 127);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.home__nav-link:hover .home__nav-link-overlay {
+  width: 100%;
 }
 
 .home__section {

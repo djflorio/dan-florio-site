@@ -35,8 +35,9 @@ class AboutPage extends React.Component {
         <img className="about__face" src={face} alt="face" />
         <Fade cascade right>
           <div>
+            <h1 className="about__header">I Am...</h1>
             <p className="about__p">
-              I'm a millenial who knows how to talk to computers,
+              ...a millenial who knows how to talk to computers,
               especially when it comes to the web.
             </p>
             <p className="about__p">

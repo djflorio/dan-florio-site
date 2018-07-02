@@ -34,15 +34,6 @@ const SideNav = (props) => {
           About
         </NavLink>
         <NavLink
-          to="/blog"
-          className="side-nav__link"
-          activeClassName="side-nav__link--active">
-          <span className="side-nav__link-overlay">
-            Blog
-          </span>
-          Blog
-        </NavLink>
-        <NavLink
           to="/portfolio"
           className="side-nav__link"
           activeClassName="side-nav__link--active">
@@ -51,15 +42,15 @@ const SideNav = (props) => {
           </span>
           Portfolio
         </NavLink>
-        <NavLink
-          to="/resume"
+        <a
+          href="http://www.danfloriomusic.com"
           className="side-nav__link"
-          activeClassName="side-nav__link--active">
+          target="_blank">
           <span className="side-nav__link-overlay">
-            Resume
+            Music
           </span>
-          Resume
-        </NavLink>
+          Music
+        </a>
       </nav>
     </Fade>
   );
