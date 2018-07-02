@@ -22,21 +22,10 @@
   transition: 0.3s;
 }
 
-.side-nav__link-overlay {
-  color: #111;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  bottom: 0;
-  background-color: rgb(77, 228, 127);
-  overflow: hidden;
-  transition: 0.5s;
-}
-
-.side-nav__link:hover .side-nav__link-overlay,
-.side-nav__link--active .side-nav__link-overlay {
-  width: 100%;
+.side-nav__link:hover,
+.side-nav__link--active {
+  text-shadow: 0 0 5px #efefef;
+  color: #efefef;
 }
 
 @media (max-width: 600px) {

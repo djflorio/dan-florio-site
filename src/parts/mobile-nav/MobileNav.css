@@ -53,9 +53,10 @@
   transition: 0.5s;
 }
 
-.mobile-nav__link:hover .mobile-nav__link-overlay,
-.mobile-nav__link--active .mobile-nav__link-overlay {
-  width: 100%;
+.mobile-nav__link:hover,
+.mobile-nav__link--active {
+  text-shadow: 0 0 5px #efefef;
+  color: #efefef;
 }
 
 @media (min-width: 600px) {

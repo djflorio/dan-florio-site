@@ -20,9 +20,6 @@ const MobileNavLink = (props) => {
       className="mobile-nav__link"
       activeClassName={active}
       onClick={() => menu.setState({ open: false })}>
-      <span className="mobile-nav__link-overlay">
-        {name}
-      </span>
       {name}
     </NavLink>
   );

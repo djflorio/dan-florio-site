@@ -19,45 +19,30 @@ const SideNav = (props) => {
         <NavLink
           to="/"
           className="side-nav__link">
-          <span className="side-nav__link-overlay">
-            Home
-          </span>
           Home
         </NavLink>
         <NavLink
           to="/about"
           className="side-nav__link"
           activeClassName="side-nav__link--active">
-          <span className="side-nav__link-overlay">
-            About
-          </span>
           About
         </NavLink>
         <NavLink
           to="/portfolio"
           className="side-nav__link"
           activeClassName="side-nav__link--active">
-          <span className="side-nav__link-overlay">
-            Portfolio
-          </span>
           Portfolio
         </NavLink>
         <NavLink
           to="/contact"
           className="side-nav__link"
           activeClassName="side-nav__link--active">
-          <span className="side-nav__link-overlay">
-            Contact
-          </span>
           Contact
         </NavLink>
         <a
           href="http://www.danfloriomusic.com"
           className="side-nav__link"
           target="_blank">
-          <span className="side-nav__link-overlay">
-            Music
-          </span>
           Music
         </a>
       </nav>
