@@ -42,6 +42,15 @@ const SideNav = (props) => {
           </span>
           Portfolio
         </NavLink>
+        <NavLink
+          to="/contact"
+          className="side-nav__link"
+          activeClassName="side-nav__link--active">
+          <span className="side-nav__link-overlay">
+            Contact
+          </span>
+          Contact
+        </NavLink>
         <a
           href="http://www.danfloriomusic.com"
           className="side-nav__link"

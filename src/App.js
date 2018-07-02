@@ -10,6 +10,7 @@ import HomePage from './pages/home/HomePage';
 import PortfolioPage from './pages/portfolio/PortfolioPage';
 import SideNav from './parts/side-nav/SideNav';
 import AboutPage from './pages/about/AboutPage';
+import ContactPage from './pages/contact/ContactPage';
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/portfolio" component={PortfolioPage} />
+          <Route path="/contact" component={ContactPage} />
         </Switch>
       </div>
     );

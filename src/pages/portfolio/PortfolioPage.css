@@ -7,11 +7,12 @@
   left: 220px;
   bottom: 0;
   overflow-y: scroll;
-  padding: 20px;
+  padding: 50px;
 }
 
 .portfolio__header {
   font-family: 'Lato', sans-serif;
+  margin-top: 0;
 }
 
 .portfolio__blurb {

@@ -53,6 +53,12 @@ class HomePage extends React.Component {
                   </span>
                   Portfolio
                 </Link>
+                <Link to="/contact" className="home__nav-link">
+                  <span className="home__nav-link-overlay">
+                    Contact
+                  </span>
+                  Contact
+                </Link>
                 <a
                   href="http://www.danfloriomusic.com"
                   className="home__nav-link">
