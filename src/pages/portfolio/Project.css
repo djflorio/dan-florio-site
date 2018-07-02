@@ -1,0 +1,41 @@
+.project {
+  font-family: 'Lato', sans-serif;
+  color: #111;
+  margin-bottom: 50px;
+}
+
+.project__img-container {
+  max-width: 700px;
+}
+
+.project__img {
+  width: 100%;
+  box-shadow: 0 0 5px #111;
+}
+
+.project__title {
+  font-weight: 900;
+}
+
+.project__description {
+  font-size: 20px;
+}
+
+.project__link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: solid #111 2px;
+  margin-right: 5px;
+  color: #111;
+  transition: 0.3s;
+}
+
+.project__link:last-child {
+  margin-right: 0;
+}
+
+.project__link:hover {
+  background-color: #111;
+  color: #efefef;
+}

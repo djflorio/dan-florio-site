@@ -1,0 +1,17 @@
+.about {
+  position: fixed;
+  /*background-color: rgb(77, 228, 127);*/
+  background-color: #efefef;
+  top: 0;
+  right: 0;
+  left: 220px;
+  bottom: 0;
+  overflow-y: scroll;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.about__p {
+  text-align: justify;
+  font-size: 30px;
+}

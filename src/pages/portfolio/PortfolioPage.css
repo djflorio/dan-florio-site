@@ -1,0 +1,28 @@
+.portfolio {
+  position: fixed;
+  /*background-color: rgb(77, 228, 127);*/
+  background-color: #efefef;
+  top: 0;
+  right: 0;
+  left: 220px;
+  bottom: 0;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.portfolio__loader {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #111;
+  padding: 50px 0;
+}
+
+.portfolio__loader-text {
+  margin: 0;
+}
+
+.portfolio__projects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
