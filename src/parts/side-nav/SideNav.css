@@ -9,6 +9,44 @@
   box-shadow: 0 3px 5px #111;
   box-sizing: border-box;
   z-index: 2;
+  text-align: center;
+}
+
+.side-nav__logo {
+  display: inline-block;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: auto;
+  color: #111;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.side-nav__logo-img {
+  filter: grayscale();
+  width: 100%;
+}
+
+.side-nav__logo-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(77, 228, 127);
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.side-nav__logo:hover {
+  box-shadow: 0 0 5px #efefef;
+}
+
+.side-nav__logo-overlay:hover {
+  background-color: #efefef;
 }
 
 .side-nav__link {

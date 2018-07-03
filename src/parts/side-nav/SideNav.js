@@ -5,6 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 // Assets
 import './SideNav.css';
+import avatar from './img/avatar.png';
 
 
 const SideNav = (props) => {
@@ -16,10 +17,9 @@ const SideNav = (props) => {
   return (
     <Fade cascade left>
       <nav className="side-nav">
-        <NavLink
-          to="/"
-          className="side-nav__link">
-          Home
+        <NavLink to="/" className="side-nav__logo">
+          <img className="side-nav__logo-img" src={avatar} />
+          <span className="side-nav__logo-overlay"></span>
         </NavLink>
         <NavLink
           to="/about"
