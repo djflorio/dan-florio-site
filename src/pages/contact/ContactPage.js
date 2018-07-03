@@ -14,7 +14,7 @@ class ContactPage extends React.Component {
     return (
       <Fade cascade right>
         <div className="contact">
-          <h1 className="contact__header">Say Something</h1>
+          <h1 className="contact__header">Talk to me!</h1>
           <p className="contact__blurb">
             Whether it's a request for my coding services or a desire
             to tell me about your day, the best way to get in touch is

@@ -11,6 +11,10 @@
   color: #111;
 }
 
+.contact__blurb {
+  font-size: 27px;
+}
+
 .contact__header {
   margin-top: 0;
 }
