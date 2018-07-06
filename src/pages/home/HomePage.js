@@ -29,7 +29,7 @@ class HomePage extends React.Component {
         <Fade top right>
           <div className="home__section home__section--2">
             <h2 className="home__slogan">
-              developer musicmaker tinker thinker
+              developer musicmaker tinkerer thinker
             </h2>
             <FontAwesomeIcon
               icon={faCog}
