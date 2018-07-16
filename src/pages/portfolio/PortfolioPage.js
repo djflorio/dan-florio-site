@@ -32,13 +32,11 @@ class PortfolioPage extends React.Component {
     getProjects((type, res) => {
 
       if (type === "success") {
-        console.log(res);
         this.setState({
           fetching: false,
           projects: res.data
         });
       } else {
-        console.error(res);
         this.setState({
           fetching: false
         });
