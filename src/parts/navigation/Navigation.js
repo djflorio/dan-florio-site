@@ -23,12 +23,6 @@ const Navigation = (props) => {
         Portfolio
       </NavLink>
       <NavLink
-        to="/blog"
-        className={linkClass}
-        activeClassName={activeLinkClass}>
-        Blog
-      </NavLink>
-      <NavLink
         to="/contact"
         className={linkClass}
         activeClassName={activeLinkClass}>

@@ -39,6 +39,13 @@
   text-decoration: none;
   color: #111;
   margin: 10px;
+  transition: 0.3s;
+}
+
+.top-nav__link--active,
+.top-nav__link:hover {
+  color: #fafafa;
+  text-shadow: 0 0 4px white;
 }
 
 @media (max-width: 600px) {
