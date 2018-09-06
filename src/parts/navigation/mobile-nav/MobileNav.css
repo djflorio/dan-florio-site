@@ -2,12 +2,12 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
-  background-color: #111;
-  box-shadow: 0 3px 5px #111;
+  height: 40px;
+  background-color: rgb(77, 228, 127);
+  box-shadow: 0 1px 1px #555;
   box-sizing: border-box;
   z-index: 2;
-  color: #efefef;
+  color: #111;
   font-family: 'Lato', sans-serif;
 }
 
@@ -15,7 +15,7 @@
   position: absolute;
   top: 5px;
   left: 10px;
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
 }
 
@@ -25,7 +25,7 @@
 
 .mobile-nav__view {
   position: relative;
-  margin-top: 50px;
+  margin-top: 40px;
   background-color: #111;
   padding: 5px;
 }
