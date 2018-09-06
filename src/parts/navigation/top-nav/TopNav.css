@@ -1,0 +1,33 @@
+.top-nav {
+  position: fixed;
+  display: flex;
+  height: 80px;
+  background-color: rgb(77, 228, 127);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  text-transform: uppercase;
+  box-shadow: 0 1px 2px #555;
+}
+
+.top-nav__avatar {
+  border-radius: 50%;
+  height: 70px;
+  margin: 5px 0 0 5px;
+  box-shadow: 1px 1px 2px #555;
+}
+
+.top-nav__menu {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  align-self: center;
+}
+
+.top-nav__link {
+  text-decoration: none;
+  color: #111;
+  margin: 10px;
+}
+

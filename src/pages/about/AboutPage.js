@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // Assets
 import './AboutPage.css';
 import { faCog } from '@fortawesome/free-solid-svg-icons'
-import face from './img/face.jpg';
 
 
 class AboutPage extends React.Component {
@@ -32,7 +31,6 @@ class AboutPage extends React.Component {
             className="about__gear about__gear--4"
           />
         </div>
-        <img className="about__face" src={face} alt="face" />
         <Fade cascade right>
           <div>
             <h1 className="about__header">I Am...</h1>
