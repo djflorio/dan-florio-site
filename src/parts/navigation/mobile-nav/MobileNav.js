@@ -9,6 +9,9 @@ import './MobileNav.css';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
+// Components
+import Navigation from '../Navigation';
+
 const MobileNavLink = (props) => {
 
   const {path, name, menu} = props;
@@ -31,9 +34,15 @@ class MobileNav extends React.Component  {
   constructor(props) {
     super(props);
 
+    this.onMobileClick = this.onMobileClick.bind(this);
+
     this.state = {
       open: false
     }
+  }
+
+  onMobileClick() {
+    this.setState({ open: false });
   }
 
   render() {
@@ -53,21 +62,14 @@ class MobileNav extends React.Component  {
           Menu
         </span>
         <Fade duration={500}>
-          <nav hidden={!this.state.open} className="mobile-nav__view">
-            <MobileNavLink path="/" name="Home" menu={this} />
-            <MobileNavLink path="/about" name="About" menu={this} />
-            <MobileNavLink path="/portfolio" name="Portfolio" menu={this} />
-            <MobileNavLink path="/contact" name="Contact" menu={this} />
-            <a
-              href="http://www.danfloriomusic.com"
-              className="mobile-nav__link"
-              target="_blank">
-              <span className="mobile-nav__link-overlay">
-                Music
-              </span>
-              Music
-            </a>
-          </nav>
+          <div hidden={!this.state.open} className="mobile-nav__view">
+            <Navigation
+              mainClass="mobil-nav__links"
+              linkClass="mobile-nav__link"
+              activeLinkClass="mobile-nav__link--active"
+              onMobileClick={this.onMobileClick}
+            />
+          </div>
         </Fade>
       </div>
     );

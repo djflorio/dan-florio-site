@@ -8,24 +8,36 @@ const Navigation = (props) => {
 
   const { mainClass, linkClass, activeLinkClass } = props;
 
+  const onMobileClick = props.onMobileClick ? props.onMobileClick : null;
+
   return (
     <nav className={mainClass}>
       <NavLink
         to="/about"
         className={linkClass}
-        activeClassName={activeLinkClass}>
+        activeClassName={activeLinkClass}
+        onClick={onMobileClick}>
         About
       </NavLink>
       <NavLink
         to="/portfolio"
         className={linkClass}
-        activeClassName={activeLinkClass}>
+        activeClassName={activeLinkClass}
+        onClick={onMobileClick}>
         Portfolio
+      </NavLink>
+      <NavLink
+        to="/blog"
+        className={linkClass}
+        activeClassName={activeLinkClass}
+        onClick={onMobileClick}>
+        Blog
       </NavLink>
       <NavLink
         to="/contact"
         className={linkClass}
-        activeClassName={activeLinkClass}>
+        activeClassName={activeLinkClass}
+        onClick={onMobileClick}>
         Contact
       </NavLink>
       <a
@@ -42,7 +54,8 @@ const Navigation = (props) => {
 Navigation.propTypes = {
   mainClass: PropTypes.string,
   linkClass: PropTypes.string,
-  activeLinkClass: PropTypes.string
+  activeLinkClass: PropTypes.string,
+  onMobileClick: PropTypes.func
 }
 
 export default Navigation;
