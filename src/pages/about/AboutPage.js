@@ -35,7 +35,7 @@ class AboutPage extends React.Component {
           <div>
             <h1 className="about__header">I Am...</h1>
             <p className="about__p">
-              ...a millenial who knows how to talk to computers,
+              ...a millennial who knows how to talk to computers,
               especially when it comes to the web.
             </p>
             <p className="about__p">
