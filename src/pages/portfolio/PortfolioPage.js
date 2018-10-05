@@ -49,16 +49,6 @@ class PortfolioPage extends React.Component {
     return (
       
         <div className="portfolio">
-          <Fade cascade right>
-          <div>
-          <h1 className="portfolio__header">Portfolio</h1>
-          <p className="portfolio__blurb">
-            In addition to the site you're on right now, (which
-            was made with React + Wordpress REST API), here are a few
-            projects I'm responsible for...
-          </p>
-          </div>
-          </Fade>
           {
             this.state.fetching &&
             <div className="portfolio__loader">
